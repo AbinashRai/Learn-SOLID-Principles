@@ -1,6 +1,6 @@
-interface CalculatorOperation {
+interface Calculator {
     perform(): void;
     getResult(): number;
 }
 
-export default CalculatorOperation;
+export default Calculator;
